@@ -12,7 +12,7 @@ This script provides handy aliases and functions, mainly for Git, but also some 
 
 ## **Aliases**
 
-### brc
+### `brc`&#8288
 Reload the bashrc file.
 ```bash
 alias brc="source ~/.bashrc"
