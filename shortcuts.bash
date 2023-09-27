@@ -107,3 +107,10 @@ lm(){
 st(){
     sudo hwclock -s
 }
+
+sync(){
+  git pull
+  git fetch origin
+  git merge origin/master
+  git push 
+}
