@@ -200,3 +200,12 @@ st(){
     sudo hwclock -s
 }
 ```
+### `sync`
+Synchronize the local repository with the remote by pulling the latest changes, fetching updates from the origin, merging changes from the master branch, and then pushing any local commits back to the remote repository.
+```bash
+sync(){
+  git pull
+  git fetch origin
+  git merge origin/master
+  git push 
+}
