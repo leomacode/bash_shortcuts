@@ -109,8 +109,8 @@ st(){
 }
 
 sync(){
-  git pull
   git fetch origin
+  git checkout master
   git merge origin/master
-  git push 
+  git reset --hard origin/master
 }
