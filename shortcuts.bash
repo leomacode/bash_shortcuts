@@ -1,7 +1,6 @@
 # font face: hack NF
 #color scheme: cambell
 
-
 alias brc="source ~/.bashrc"
 
 
